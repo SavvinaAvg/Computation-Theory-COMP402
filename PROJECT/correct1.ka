@@ -1,0 +1,39 @@
+const N=100: integer;
+
+i: integer;
+x: boolean;
+itsme, hi: integer;
+
+
+def add(n: integer, k: integer)-> integer:
+	n= n+k;
+	while(n == k):
+		k = k+1;
+		x = False;
+	endwhile;
+enddef;
+
+def print(n: integer, k: integer)-> scalar:
+	n=2;
+	if(n == k):
+		for k in [k=0: k<N: k=k+1]:
+			k = k+1;
+			x = True;
+			n = 2;
+		endfor;
+	endif;
+enddef;
+
+def main():
+	for i in [i=0: i<N: i = i+1]:
+		if (itsme == 200 and hi != 0):
+			x = True;
+		else:
+			x = False;
+		endif;
+	endfor;
+	
+	while(hi >= 23):
+		itsme = 300;
+	endwhile;
+enddef;

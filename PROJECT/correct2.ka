@@ -1,0 +1,56 @@
+const N = -100: integer;
+const a = 30: integer;
+
+w, e: intger;
+same: boolean;
+
+w = e+1;
+
+if(e >= 10):
+	same = False;
+else:
+	same = True;
+endif;
+
+comp Circle:
+	
+	#x, #y: scalar;
+	#radius: scalar;
+	
+	def area(k: boolean) -> scalar: 
+		i,y: integer;
+		
+		for i in [i=0: i<N: i=i+1]:
+			if( y == 0 and w != 1):
+				k = True;
+			else:
+				--a = hi(b);
+				--return 3.14 * i /(#radius ** 2); 
+				x = b;
+				k = False;
+			endif;
+		endfor;
+	enddef;
+
+	def perimeter() -> scalar: 
+		
+		b,c: integer;
+		while(b >=c):
+			b = area(k);
+		endwhile;
+		return 2 * 3.14 * #radius; 
+	enddef;
+
+endcomp;
+
+l: Circle;
+
+def main():
+	x: integer;
+	x = 1 + 2 + 3 + 4;
+	x >= 5;
+	writeInteger(x);
+	w = readStr();
+	e = readInteger(x);
+	return;
+enddef;
